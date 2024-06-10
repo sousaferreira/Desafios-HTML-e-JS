@@ -1,0 +1,70 @@
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(75, 6, 6);
+}
+
+/* Estilos para o contêiner dos links e título */
+.links1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #ccc;
+    display: flex; /* Adiciona display flex */
+    flex-direction: column; /* Define a direção da coluna */
+    align-items: center; 
+  
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 36px;
+    color: #ccc;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Estilos para o campo de entrada */
+.i {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #9b1e1e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9b1e1e;
+}
+
+/* Estilos para os links */
+a {
+    margin-bottom: 10px; /* Remova o padding e o display inline-block */
+    padding: 10px 20px;
+    background-color:#9b1e1e ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #b30000;
+}

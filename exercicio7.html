@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exemplo 7</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <script>
+        function abre1(){
+            window.open("http://www.google.com")
+        
+        }
+        function  abre2(){
+            window.open("http://www.google.com", "simples ", "width=350, height=400");
+
+        }
+        function abre3(){
+            window.open("http://www.google.com", "simples ", "menubar, scrollbars, width=350, height=400");
+        }
+    </script>
+    <form>
+        <p>Dê um clique no botão para abrir uma janela simples:</p>
+        <input type="button" name="abrir" value="Janela1" onclick="abre1()"></input>
+
+        <input type="button" name="abrir" value="Janela2" onclick="abre2()"></input>
+
+        <input type="button" name="abrir" value="Janela3" onclick="abre3()"></input>
+    </form>
+</body>
+</html>

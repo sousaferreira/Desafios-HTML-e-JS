@@ -1,0 +1,77 @@
+body{
+background-color:rgb(75, 6, 6) ;
+color: rgb(253, 253, 253);
+font-size: larger;
+font-family:'Courier New', Courier, monospace ;
+
+padding: 50px;
+
+}
+i[type = 'text']{
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace ;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.container{
+display: block;
+padding-top: 200px;
+text-align: center;
+padding-left: 10px;
+}
+button{
+    font-family:'Courier New', Courier, monospace ; 
+    cursor: pointer;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 30px;
+    gap: 100px;
+}
+.links{
+    border: solid 1px ;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 25px;
+    display: grid
+}
+a{
+    color: aliceblue;
+}
+.formulario{
+    
+    display: block;
+    text-align: center;
+    padding: 30px;
+    border: solid 1px;
+   
+}
+.sexo{
+ padding: 20px;
+ line-height: 30px;
+}
+
+.estado{
+ padding: 20px;
+ line-height: 30px;
+}
+.bens{
+  padding: 20px;
+  line-height: 30px;
+}
+.idade{
+    padding: 10px;
+    line-height: 30px;
+}
+.hobby{
+    padding: 10px;
+    line-height: 10px;
+}
+.obs{
+    padding: 50px;
+    
+    line-height: 30px;
+}

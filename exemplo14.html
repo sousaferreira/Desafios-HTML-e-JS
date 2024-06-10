@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exemplo 14</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <script>
+        function campo_obrigatorio(x){
+        if(x.value=="")
+        {
+        alert("O campo " + x.name + " não pode ficar em branco.")
+        }
+        else{
+            alert("preenchido")
+        }
+        }
+       
+</script>
+
+        <h1>Nota: os campos marcados com asterisco são obrigatórios. </h1><br><br>
+        <form>
+        *Nome Completo: <input type="text" name="nome" value="" size=30 maxlength=30
+        onblur="campo_obrigatorio(this)"><br>
+        Idade: <input type="text" name="idade" value="" size=5 maxlength=5><br>
+
+        *Cidade: <input type="text" name="cidade" value="" size=20 maxlength=20
+        onblur="campo_obrigatorio(this)"><br>
+        Telefone: <input type="text" name="telefone" value="" size=15
+        maxlength=15><br>
+
+        
+
+       
+       
+</body>
+</html>
